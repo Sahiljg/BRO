@@ -1,7 +1,7 @@
 FROM python:3.9-slim
 
 # Establish a working folder
-WORKDIR /appds
+WORKDIR /app
 
 # Establish dependencies
 COPY requirements.txt .
